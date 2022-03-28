@@ -1,0 +1,25 @@
+{
+  "name": "botcryptwds",
+  "version": "1.0.0",
+  "description": "bot buy and sell cryptocurrencies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelwds/botcryptwds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelwds/botcryptwds/issues"
+  },
+  "homepage": "https://github.com/rafaelwds/botcryptwds#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  }
+}
